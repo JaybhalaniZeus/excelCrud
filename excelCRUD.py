@@ -26,8 +26,8 @@ excel_file_path = r"C:\Users\jaybh\OneDrive\Desktop\task.xlsx"
 sheet_name = "Sheet1"  # Example sheet name
 
 # Specify the row and column to update the cell data
-row_number = 1  # Example row number
-column_number = 1  # Example column number
+row_number = 3  # Example row number
+column_number = 2  # Example column number
 
 # Specify the new value to update the cell with
 new_cell_value = "JAHAN"  # Example new value

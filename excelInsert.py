@@ -41,7 +41,7 @@ existing_data = read_excel_file(excel_file_path)
 new_data = pd.DataFrame({
     'ID': ['9'],
     'NAME': ['Ellyse Perry'],
-    'DEPARTMENT': [Computer],
+    'DEPARTMENT': ['Computer'],
 })
 
 # Call the function to insert new data into the Excel file

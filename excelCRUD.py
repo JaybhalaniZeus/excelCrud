@@ -15,12 +15,16 @@ def update_excel_cell(file_path, sheet_name, row, column, new_value):
         wb.save(file_path)
         
         print(f"Data in cell ({row}, {column}) updated successfully.")
+        
+        # Read the entire Excel file
+        for row in ws.iter_rows(values_only=True):
+            print(row)
     
     except Exception as e:
         print("Error updating data in Excel file:", e)
 
 # Specify the path to the Excel file
-excel_file_path = r"D:\task6\excel.xlsx"
+excel_file_path = r"C:\Users\jaybh\OneDrive\Desktop\task.xlsx"
 
 # Specify the name of the worksheet
 sheet_name = "Sheet1"  # Example sheet name
@@ -34,4 +38,3 @@ new_cell_value = "JAHAN"  # Example new value
 
 # Call the function to update data in the specified cell
 update_excel_cell(excel_file_path, sheet_name, row_number, column_number, new_cell_value)
-

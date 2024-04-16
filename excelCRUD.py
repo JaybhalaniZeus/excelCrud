@@ -22,8 +22,8 @@ def read_excel_cell(file_path, row, column):
 excel_file_path = r"C:\Users\jaykumar.bhalani\Downloads\excel.xlsx"
 
 # Specify the row and column to read the cell data
-row_number = 2  # Example row number
-column_number = 2  # Example column number
+row_number = 1  # Example row number
+column_number = 1  # Example column number
 
 # Call the function to read data from the specified cell
 read_excel_cell(excel_file_path, row_number, column_number)

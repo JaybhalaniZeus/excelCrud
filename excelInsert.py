@@ -32,7 +32,7 @@ def insert_data_to_excel(file_path, new_data):
         print("Error inserting data to Excel file:", e)
 
 # Specify the path to the Excel file
-excel_file_path = r"C:\Users\jaykumar.bhalani\Downloads\excel.xlsx"
+excel_file_path = r"C:\Users\jaybh\OneDrive\Desktop\task.xlsx"
 
 # Define new data to insert into the Excel file
 new_data = pd.DataFrame({

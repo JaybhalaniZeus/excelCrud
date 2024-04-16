@@ -24,7 +24,7 @@ def update_excel_cell(file_path, sheet_name, row, column, new_value):
         print("Error updating data in Excel file:", e)
 
 # Specify the path to the Excel file
-excel_file_path = r"C:\Users\jaybh\OneDrive\Desktop\task.xlsx"
+excel_file_path = r"D:\excel\task.xlsx"
 
 # Specify the name of the worksheet
 sheet_name = "Sheet1"  # Example sheet name

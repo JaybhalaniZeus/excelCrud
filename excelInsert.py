@@ -13,8 +13,7 @@ def read_excel_file(file_path):
         return df
     
     except Exception as e:
-        print("Error reading Excel file:", e)
-        raise  # Reraise the exception to halt execution
+        print("Error:", e)
 
 def insert_data_to_excel(file_path, new_data):
     try:
@@ -31,13 +30,9 @@ def insert_data_to_excel(file_path, new_data):
     
     except Exception as e:
         print("Error inserting data to Excel file:", e)
-        raise  # Reraise the exception to halt execution
 
 # Specify the path to the Excel file
 excel_file_path = r"C:\Users\jaykumar.bhalani\Downloads\excel.xlsx"
-
-# Call the function to read the Excel file
-existing_data = read_excel_file(excel_file_path)
 
 # Define new data to insert into the Excel file
 new_data = pd.DataFrame({

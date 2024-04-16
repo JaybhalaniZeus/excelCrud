@@ -16,7 +16,7 @@ def read_excel_file(file_path):
         print("Error:", e)
 
 # Specify the path to the Excel file
-excel_file_path = r"C:\Users\jaybh\OneDrive\Desktop\task.xlsx"
+excel_file_path = r"C:\Users\jaybh\AppData\Local\Programs\Python\Python311\python.exe"
 
 # Call the function to read the Excel file
 read_excel_file(excel_file_path)

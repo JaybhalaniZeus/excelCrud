@@ -20,8 +20,8 @@ def insert_data_to_excel(file_path, new_data):
         # Read the Excel file into a DataFrame
         df = pd.read_excel(file_path)
         
-        # Append new data to the DataFrame
-        df = df.append(new_data, ignore_index=True)
+        # Concatenate the existing DataFrame with the new data
+        df = pd.concat([df, new_data], ignore_index=True)
         
         # Write the updated DataFrame back to the Excel file
         df.to_excel(file_path, index=False)
